@@ -11,7 +11,7 @@ for(int i=0;i<n;i++)
 }
 int freq[6]={0};
 
-for(int u=0;i<n;i++)
+for(int i=0;i<n;i++)
 {
     if(a[i]==0)
     {
@@ -32,7 +32,8 @@ for(int u=0;i<n;i++)
 }
 for(int i=0;i<n;i++)
 {
-    freq[a[i]]++;
+    int val=a[i];
+    freq[val]++;
 }
 printf("%d->%d\n",0,freq[0]);
 printf("%d->%d\n",1,freq[1]);
